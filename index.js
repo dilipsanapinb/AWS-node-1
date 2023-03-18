@@ -5,7 +5,7 @@ const app = express();
 app.use(cors());
 
 app.get("/", (req, res) => {
-    res.send("Welcome to server-1")
+    res.send("Welcome to server-2")
 })
 
 app.listen(8080, () => {
